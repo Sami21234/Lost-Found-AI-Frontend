@@ -91,7 +91,7 @@ export default function ReportLost() {
 
   return (
     <motion.div
-      className="min-h-screen bg-gradient-to-r from-indigo-500 to-blue-600 flex flex-col items-center px-4 pt-20"
+      className="min-h-screen bg-gradient-to-r from-indigo-500 to-blue-600 flex flex-col items-center px-4 pt-0"
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
